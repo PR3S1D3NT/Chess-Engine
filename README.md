@@ -215,19 +215,6 @@ Current implementation is optimized for moderate depths (4-6). For deeper analys
 - No move ordering optimizations
 - Evaluation is material + PST only (no pawn structure, piece coordination, etc.)
 
-## Future Improvements
-
-- [ ] Opening book integration
-- [ ] Transposition table caching
-- [ ] Move ordering heuristics (MVV-LVA, killer moves)
-- [ ] Zobrist hashing for position caching
-- [ ] Iterative deepening with time management
-- [ ] Advanced endgame evaluation
-- [ ] PGN import/export
-- [ ] Game analysis panel
-- [ ] Network play (multiplayer)
-- [ ] Mobile app version
-
 ## Testing
 
 The chess rules engine is thoroughly tested including:
@@ -246,26 +233,6 @@ To test manually:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contributing
-
-Contributions are welcome! Feel free to:
-- Submit bug reports and feature requests via GitHub Issues
-- Fork the repository and submit pull requests
-- Improve the evaluation function or add new features
-
-Areas for contribution:
-- Performance optimizations
-- New evaluation heuristics
-- Testing and bug fixes
-- Documentation improvements
-
-## References
-
-- **Piece Square Tables**: Adapted from [Sunfish.py](https://github.com/thomasahle/sunfish) - a minimal chess engine
-- **0x88 Board Representation**: Classic efficient board representation
-- **Alpha-Beta Pruning**: Standard minimax optimization technique
-- **Chessboard.js**: UI component library
 
 ## Author
 
